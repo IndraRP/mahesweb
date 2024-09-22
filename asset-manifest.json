@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mahesweb/static/css/main.87fd6292.css",
-    "main.js": "/mahesweb/static/js/main.9f2730a6.js",
+    "main.css": "/mahesweb/static/css/main.99b705aa.css",
+    "main.js": "/mahesweb/static/js/main.32591c86.js",
     "static/js/453.9abd1971.chunk.js": "/mahesweb/static/js/453.9abd1971.chunk.js",
     "static/media/cvmahes.pdf": "/mahesweb/static/media/cvmahes.543475d262466ad013fe.pdf",
     "static/media/gambar4.jpg": "/mahesweb/static/media/gambar4.dfd6a5e55f3b57b2e8c7.jpg",
@@ -18,12 +18,12 @@
     "static/media/gambar1.jpg": "/mahesweb/static/media/gambar1.678aef66c8aa6a63cdf7.jpg",
     "static/media/gambar3.jpg": "/mahesweb/static/media/gambar3.a1f0bf92c8be72eeadcc.jpg",
     "index.html": "/mahesweb/index.html",
-    "main.87fd6292.css.map": "/mahesweb/static/css/main.87fd6292.css.map",
-    "main.9f2730a6.js.map": "/mahesweb/static/js/main.9f2730a6.js.map",
+    "main.99b705aa.css.map": "/mahesweb/static/css/main.99b705aa.css.map",
+    "main.32591c86.js.map": "/mahesweb/static/js/main.32591c86.js.map",
     "453.9abd1971.chunk.js.map": "/mahesweb/static/js/453.9abd1971.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.87fd6292.css",
-    "static/js/main.9f2730a6.js"
+    "static/css/main.99b705aa.css",
+    "static/js/main.32591c86.js"
   ]
 }
