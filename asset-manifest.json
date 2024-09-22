@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/IndraRP/mahesweb/static/css/main.1fcab786.css",
+    "main.js": "/IndraRP/mahesweb/static/js/main.765e930f.js",
+    "static/js/453.9abd1971.chunk.js": "/IndraRP/mahesweb/static/js/453.9abd1971.chunk.js",
+    "static/media/cvmahes.pdf": "/IndraRP/mahesweb/static/media/cvmahes.543475d262466ad013fe.pdf",
+    "static/media/mahes.jpg": "/IndraRP/mahesweb/static/media/mahes.723d6fb240876862e586.jpg",
+    "index.html": "/IndraRP/mahesweb/index.html",
+    "main.1fcab786.css.map": "/IndraRP/mahesweb/static/css/main.1fcab786.css.map",
+    "main.765e930f.js.map": "/IndraRP/mahesweb/static/js/main.765e930f.js.map",
+    "453.9abd1971.chunk.js.map": "/IndraRP/mahesweb/static/js/453.9abd1971.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1fcab786.css",
+    "static/js/main.765e930f.js"
+  ]
+}
