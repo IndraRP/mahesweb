@@ -1,17 +1,29 @@
 {
   "files": {
     "main.css": "/mahesweb/static/css/main.87fd6292.css",
-    "main.js": "/mahesweb/static/js/main.b8e191db.js",
+    "main.js": "/mahesweb/static/js/main.0e7b78dc.js",
     "static/js/453.9abd1971.chunk.js": "/mahesweb/static/js/453.9abd1971.chunk.js",
     "static/media/cvmahes.pdf": "/mahesweb/static/media/cvmahes.543475d262466ad013fe.pdf",
+    "static/media/gambar4.jpg": "/mahesweb/static/media/gambar4.dfd6a5e55f3b57b2e8c7.jpg",
+    "static/media/gambar9.jpg": "/mahesweb/static/media/gambar9.05665601faa7260e0aa2.jpg",
+    "static/media/gambar6.jpg": "/mahesweb/static/media/gambar6.c7717452eb1849f8eb84.jpg",
+    "static/media/gambar2.jpg": "/mahesweb/static/media/gambar2.2a15ebd20659fadef517.jpg",
+    "static/media/gambar5.jpg": "/mahesweb/static/media/gambar5.1e5b2951772da55d2937.jpg",
+    "static/media/gambar11.jpg": "/mahesweb/static/media/gambar11.3d3942e99b7ab6e1d0aa.jpg",
     "static/media/mahes.jpg": "/mahesweb/static/media/mahes.723d6fb240876862e586.jpg",
+    "static/media/gambar7.jpg": "/mahesweb/static/media/gambar7.ef614afa82610fe20161.jpg",
+    "static/media/gambar8.jpg": "/mahesweb/static/media/gambar8.51c58424dc52ecd8649b.jpg",
+    "static/media/gambar10.jpg": "/mahesweb/static/media/gambar10.10c806a39dd4270085ad.jpg",
+    "static/media/gambar12.jpg": "/mahesweb/static/media/gambar12.f1af98d6e7021736b1d2.jpg",
+    "static/media/gambar1.jpg": "/mahesweb/static/media/gambar1.678aef66c8aa6a63cdf7.jpg",
+    "static/media/gambar3.jpg": "/mahesweb/static/media/gambar3.a1f0bf92c8be72eeadcc.jpg",
     "index.html": "/mahesweb/index.html",
     "main.87fd6292.css.map": "/mahesweb/static/css/main.87fd6292.css.map",
-    "main.b8e191db.js.map": "/mahesweb/static/js/main.b8e191db.js.map",
+    "main.0e7b78dc.js.map": "/mahesweb/static/js/main.0e7b78dc.js.map",
     "453.9abd1971.chunk.js.map": "/mahesweb/static/js/453.9abd1971.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.87fd6292.css",
-    "static/js/main.b8e191db.js"
+    "static/js/main.0e7b78dc.js"
   ]
 }
