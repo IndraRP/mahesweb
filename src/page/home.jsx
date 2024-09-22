@@ -176,7 +176,7 @@ const Home = () => {
         <p class="mt-4 mx-20 text-center text-gray-500 ">
         Proyek desain ini mengedepankan kreativitas dan detail, menggabungkan estetika modern dengan fungsi, menghasilkan pengalaman visual yang memukau dan efektif.        </p>
 
-        <div className="grid grid-cols-2 gap-6 mt-8 xl:mt-12 xl:gap-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4">
+        <div className="grid grid-cols-2 gap-6 mt-8 xl:mt-12 xl:gap-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
   {porto.map((item, index) => (
     <div
       key={index}

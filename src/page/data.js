@@ -1,3 +1,15 @@
+import gambar1 from "../page/image/gambar1.jpg";
+import gambar2 from "../page/image/gambar2.jpg";
+import gambar3 from "../page/image/gambar3.jpg";
+import gambar4 from "../page/image/gambar4.jpg";
+import gambar5 from "../page/image/gambar5.jpg";
+import gambar6 from "../page/image/gambar6.jpg";
+import gambar7 from "../page/image/gambar7.jpg";
+import gambar8 from "../page/image/gambar8.jpg";
+import gambar9 from "../page/image/gambar9.jpg";
+import gambar10 from "../page/image/gambar10.jpg";
+import gambar11 from "../page/image/gambar11.jpg";
+import gambar12 from "../page/image/gambar12.jpg";
 
 export const teamMembers = [
     {
@@ -48,61 +60,61 @@ export const porto = [
     {
         name: "Project 1",
         desc: "A versatile design tool for creating stunning visuals.",
-        image: "/gambar/gambar1.jpg",
+        image: gambar1,
     },
     {
         name: "Project 2",
         desc: "A powerful graphics editor for photo editing and digital art.",
-        image: "/gambar/gambar2.jpg",
+        image: gambar2,
     },
     {
         name: "Project 3",
         desc: "Vector graphics software for creating logos, icons, and illustrations.",
-        image: "/gambar/gambar3.jpg",
+        image: gambar3,
     },
     {
         name: "Project 4",
         desc: "Collaborative design tool for interface design and prototyping.",
-        image: "/gambar/gambar4.jpg",
+        image: gambar4,
     },
     {
         name: "Project 5",
         desc: "Design tool for creating user interfaces and experiences.",
-        image: "/gambar/gambar5.jpg",
+        image: gambar5,
     },
     {
         name: "Project 6",
         desc: "User-friendly graphic design tool for non-designers and professionals.",
-        image: "/gambar/gambar6.jpg",
+        image: gambar6,
     },
     {
         name: "Project 7",
         desc: "Prototyping tool that allows designers to create interactive mockups.",
-        image: "/gambar/gambar7.jpg",
+        image: gambar7,
     },
     {
         name: "Project 8",
         desc: "Vector graphic design software known for its user-friendly interface.",
-        image: "/gambar/gambar8.jpg",
+        image: gambar8,
     },
     {
         name: "Project 9",
         desc: "3D design software for modeling, animation, and rendering.",
-        image: "/gambar/gambar9.jpg",
+        image: gambar9,
     },
     {
         name: "Project 10",
         desc: "Design and prototyping tool for creating user experiences.",
-        image: "/gambar/gambar10.jpg",
+        image: gambar10,
     },
     {
         name: "Project 11",
         desc: "A graphic design software that offers a range of vector and raster tools.",
-        image: "/gambar/gambar11.jpg",
+        image: gambar11,
     },
     {
         name: "Project 12",
         desc: "Digital painting app for illustrators and artists on the iPad.",
-        image: "/gambar/gambar12.jpg",
+        image: gambar12,
     },
 ];
