@@ -1,4 +1,5 @@
 {
+"homepage": "https://IndraRP.github.io/mahesweb",
   "name": "mahes",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +20,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -42,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "tailwindcss": "^3.4.10"
   }
 }

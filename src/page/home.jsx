@@ -30,9 +30,9 @@ const Home = () => {
   };
 
   return (
-    <div>
+    <div className="bg-white">
       {/* MENU UTAMA */}
-      <section id="home-section" className="bg-white dark:bg-gray-900">
+      <section id="home-section" className="bg-white">
         <div className="max-w-6xl px-6 pb-5 mx-auto">
           <main className="relative z-20 w-full mt-8 md:flex md:items-center xl:mt-12">
             <div className="absolute w-full bg-gray-600 -z-10 md:h-96 rounded-2xl"></div>
@@ -135,15 +135,14 @@ const Home = () => {
             Skill
           </h1>
           <p className="max-w-2xl font-semibold mx-auto my-4 text-center text-gray-900">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-            a nemo quae corporis non id saepe nam dolores dolore ab.
+          Saya ahli dalam desain grafis, UI/UX, dan memiliki kreativitas tinggi dalam menciptakan visual menarik dan fungsional.
           </p>
 
           <div className="grid grid-cols-1 gap-5 mt-8 xl:mt-16 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
             {teamMembers.map((member, index) => (
               <div
                 key={index}
-                className="bg-slate-100 flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-lg shadow-md hover:border-transparent group hover:bg-gray-600 dark:border-gray-700 dark:hover:border-transparent"
+                className="bg-slate-100 flex flex-col items-center p-8 transition-colors duration-300 transform border cursor-pointer rounded-lg shadow-md hover:border-transparent group hover:bg-gray-600 "
               >
                 <img
                   className="object-cover w-auto h-32"
@@ -151,13 +150,13 @@ const Home = () => {
                   alt={member.name}
                 />
 
-                <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white group-hover:text-white">
+                <h1 className="mt-4 text-2xl font-semibold text-gray-700 capitalize group-hover:text-white">
                   {member.name}
                 </h1>
 
                 <a
                   href={member.url}
-                  className="hover:underline mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300 text-center"
+                  className="hover:underline mt-2 text-gray-500 capitalize group-hover:text-gray-300 text-center"
                 >
                   {member.desc}
                 </a>
@@ -169,14 +168,13 @@ const Home = () => {
       </section>
 
 
-      <section id="project-section" class="bg-white dark:bg-gray-900">
+      <section id="project-section" class="bg-white">
     <div class="container px-6 py-10 mx-auto">
-        <h1 class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">Portfolio
+        <h1 class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl">Portfolio
         </h1>
 
-        <p class="mt-4 text-center text-gray-500 dark:text-gray-300">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum quam voluptatibus
-        </p>
+        <p class="mt-4 mx-20 text-center text-gray-500 ">
+        Proyek desain ini mengedepankan kreativitas dan detail, menggabungkan estetika modern dengan fungsi, menghasilkan pengalaman visual yang memukau dan efektif.        </p>
 
         <div className="grid grid-cols-2 gap-6 mt-8 xl:mt-12 xl:gap-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4">
   {porto.map((item, index) => (
@@ -205,7 +203,7 @@ const Home = () => {
 </section>
 
       {/* CONTACT */}
-      <section id="contact-section" class="bg-white dark:bg-gray-900">
+      <section id="contact-section" class="bg-white ">
         <div class="container px-12 pb-12 pt-5 rounded-2xl mb-12 mx-auto bg-gray-700">
           <div class="lg:flex lg:items-center lg:-mx-6">
             <div class="lg:w-1/2 lg:mx-6">
@@ -217,7 +215,7 @@ const Home = () => {
                 <p class="flex items-start -mx-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="w-8 h-8 mx-2 text-blue-500 dark:text-blue-400"
+                    class="w-8 h-8 mx-2 text-blue-500"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -243,7 +241,7 @@ const Home = () => {
                 <p class="flex items-start -mx-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="w-6 h-6 mx-2 text-blue-500 dark:text-blue-400"
+                    class="w-6 h-6 mx-2 text-blue-500 "
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -262,7 +260,7 @@ const Home = () => {
                 <p class="flex items-start -mx-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="w-6 h-6 mx-2 text-blue-500 dark:text-blue-400"
+                    class="w-6 h-6 mx-2 text-blue-500 "
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -346,40 +344,40 @@ const Home = () => {
             </div>
 
             <div class="mt-8 lg:w-1/2 lg:mx-6">
-              <div class="w-full px-8 py-10 mx-auto overflow-hidden bg-white rounded-lg shadow-2xl dark:bg-gray-900 lg:max-w-xl shadow-gray-300/50 dark:shadow-black/50">
+              <div class="w-full px-8 py-10 mx-auto overflow-hidden bg-white rounded-lg shadow-2xl lg:max-w-xl shadow-gray-300/50">
                 <h1 class="text-lg font-medium text-gray-700">
                   What do you want to ask
                 </h1>
 
                 <form onSubmit={sendToWhatsApp} className="mt-6">
       <div className="flex-1">
-        <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Full Name</label>
+        <label className="block mb-2 text-sm text-gray-600 ">Full Name</label>
         <input
           type="text"
           placeholder="John Doe"
           value={fullName}
           onChange={(e) => setFullName(e.target.value)}
-          className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+          className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
           required
         />
       </div>
 
       <div className="flex-1 mt-6">
-        <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Email address</label>
+        <label className="block mb-2 text-sm text-gray-600">Email address</label>
         <input
           type="email"
           placeholder="johndoe@example.com"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+          className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
           required
         />
       </div>
 
       <div className="w-full mt-6">
-        <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Message</label>
+        <label className="block mb-2 text-sm text-gray-600">Message</label>
         <textarea
-          className="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+          className="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-48 focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
           placeholder="Message"
           value={message}
           onChange={(e) => setMessage(e.target.value)}

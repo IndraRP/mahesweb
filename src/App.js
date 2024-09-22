@@ -9,9 +9,11 @@ import './index.css';
 const App = () => {
   return (
     <Router>
+      <div className='bg-white'>
         <Navbar/>
         <Home/>
         <Footer/>
+        </div>
     </Router>
   );
 };
