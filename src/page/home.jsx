@@ -70,9 +70,8 @@ const Home = () => {
                 </div>
 
                 <p className="mt-4 text-sm leading-relaxed text-white md:text-md">
-                  “Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Tempore quibusdam ducimus libero ad tempora doloribus expedita
-                  laborum saepe voluptas perferendis delectus assumenda”.
+                Saya siswa SMK yang bersemangat dalam desain, 
+                menciptakan karya grafis inovatif dan menarik.
                 </p>
 
                 <div className="button block lg:flex pt-4">
