@@ -170,11 +170,12 @@ const Home = () => {
 
       <section id="project-section" class="bg-white">
     <div class="container px-6 py-10 mx-auto">
-        <h1 class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl">Portfolio
+        <h1 class="text-2xl font-bold text-center text-gray-800 capitalize lg:text-3xl">Portfolio
         </h1>
 
         <p class="mt-4 text-center text-gray-500 ">
-        Proyek desain ini mengedepankan kreativitas dan detail, menggabungkan estetika modern dengan fungsi, menghasilkan pengalaman visual yang memukau dan efektif.        </p>
+
+           </p>
 
         <div className="grid grid-cols-2 gap-6 mt-8 xl:mt-12 xl:gap-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
   {porto.map((item, index) => (
